@@ -1,0 +1,190 @@
+
+#main_container .list_videos{
+	width: 760px;
+	float: left;
+	margin: 10px 0px;
+	border-top: 3px solid #117e0c;
+	padding-top: 10px;
+	margin-right: 5px;
+	min-height: 600px;
+}
+#main_container .list_videos .title{
+	clear: both;
+	margin-bottom: 10px;
+	float: left;
+	margin-left: 10px;
+}
+#main_container .list_videos .title .icon{
+	background: url("../images/icons.png") no-repeat;
+	background-position: -202px -24px;
+	width: 22px;
+	height: 23px;
+	display: block;
+	float: left;
+}
+#main_container .list_videos .title .txt{
+	color: #117e0c;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	height: 23px;
+	float: left;
+	margin-left: 10px;
+	line-height: 23px;
+}
+
+#main_container .list_videos .container{
+	background: #f5f5f5;
+	border: 1px solid #dbdbdb;
+	margin-left: 2px;
+	width: 753px;
+	float: left;
+	position: relative;
+}
+#main_container .list_videos .container .box_video{
+	width: 240px;
+	height: 210px;
+	float: left;
+	margin-left: 8px;
+	position: relative;
+}
+#main_container .list_videos .container .box_video:hover{
+	background: #e5e4e4;
+}
+#main_container .list_videos .container .box_video img{
+	width: 240px;
+	height: 150px;
+	margin-top: 5px;
+}
+#main_container .list_videos .container .box_video .title{
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	margin:5px 5px;
+}
+#main_container .list_videos .container .box_video .title:hover{
+	color: #d45407;
+}
+#main_container .list_videos .container .box_video span.iconvideoplay{
+	display: block;
+	width:52px;
+	height: 52px;
+	left: 88px;
+	top: 48px;
+	position: absolute;
+	background: url("../images/icons.png") no-repeat;
+	background-position:-235px -9px; 
+}
+#main_container .list_videos .container .box_video span.timer{
+	position: absolute;
+	bottom: 55px;
+	right: 0px;
+	padding: 5px;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-weight: bold;
+}
+#main_container .list_videos .pagination{
+	float: left;
+	margin-top: 10px;
+}
+#main_container .list_videos .pagination a{
+	display: block;
+	padding: 5px 5px;
+	float: left;
+	background: #117e0c;
+	margin-left: 5px;
+	font-weight: bold;
+	color: white;
+}
+#main_container .list_videos .pagination a.active{
+	background: #086404;
+}
+#main_container .list_videos .pagination a:hover{
+	background: #086404;
+}
+#main_container  .main_right{
+	width: 226px;
+	margin-top: 10px;
+	float: right;
+	margin-right: 2px;
+}
+#main_container  .main_right .feature_video{
+	width: 226px;
+	background: #f5f5f5;
+	border: 1px solid #dbdbdb;
+	float: right;
+}
+#main_container  .main_right .feature_video .box_video{
+	float: left;
+	width: 220px;
+	padding: 0px 2px;
+	margin-bottom: 5px;
+	position:relative;
+}
+#main_container  .main_right .feature_video .box_video:hover{
+	background: #e5e4e4;
+}
+
+#main_container .main_right .feature_video .box_video img{
+	width: 220px;
+	height: 100px;
+	margin-top: 5px;
+}
+#main_container  .main_right .feature_video .box_video .title{
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+}
+#main_container  .main_right .feature_video .box_video .title:hover{
+	color: #d45407;
+}
+#main_container  .main_right .feature_video .box_video span.iconvideoplay{
+	display: block;
+	width:52px;
+	height: 52px;
+	left: 88px;
+	top: 30px;
+	position: absolute;
+	background: url("../images/icons.png") no-repeat;
+	background-position:-235px -9px; 
+}
+#main_container  .main_right .feature_video .title_feature{
+	width: 226px;
+	float: left;
+	font-weight: bold;
+	color: white;
+	background: #117e0c;
+	text-align: center;
+	padding: 10px 0px;
+}
+#main_container  .main_right .feature_video .box_video span.timer{
+	position: absolute;
+	bottom: 35px;
+	right: 2px;
+	padding: 5px;
+	background: rgba(0,0,0,0.8);
+	color: white;
+	font-weight: bold;
+}
+#main_container  .main_right .banner_right{
+	width: 224px;
+	height: 250px;
+	margin-top: 10px;
+	float: left;
+}
+#main_container  .main_right .banner_right img{
+	width: 224px;
+	height: 250px;
+}
+#main_container .container{
+	line-height: 18px;
+
+}
+#main_container .container .title_video{
+	padding: 10px;
+	font-size: 14px;
+}
+#main_container .container .desc_video{
+	padding: 10px;
+}

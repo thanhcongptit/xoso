@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN" "http://tuckey.org/res/dtds/urlrewrite3.2.dtd">
+<urlrewrite>
+    <!-- ket qua xo so theo ngay-->
+    <rule>
+    	<from>/trang-chu.html</from>
+    	<to>index.htm</to>
+    </rule>                      
+    
+    <rule>
+    	<from>/lien-he.html</from>
+    	<to>/lien_he.htm</to>
+    </rule>                      
+    
+    <rule>
+    	<from>/trang-chu-ngay-([0-9-]+).html</from>
+    	<to>/index.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/kqxs-ket-qua-xo-so.html</from>
+    	<to>/soketqua.htm</to>
+    </rule>                      
+    
+    <rule>
+    	<from>/kqxs-ket-qua-xo-so-ngay-([0-9-]+).html</from>
+    	<to>/soketqua.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmb-ket-qua-xo-so-mien-bac-xstd.html</from>
+    	<to>/xsmb.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmb-ket-qua-xo-so-mien-bac-xstd-ngay-([0-9-]+).html</from>
+    	<to>/xsmb.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/ket-qua-xo-so-mien-trung-xsmt.html</from>
+    	<to>/xsmt.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/ket-qua-xo-so-mien-trung-xsmt-ngay-([0-9-]+).html</from>
+    	<to>/xsmt.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/ket-qua-xo-so-mien-nam-xsmn.html</from>
+    	<to>/xsmn.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/ket-qua-xo-so-mien-nam-xsmn-ngay-([0-9-]+).html</from>
+    	<to>/xsmn.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/ket-qua-xo-so-([a-z-]+)-([a-z-]+).html</from>
+    	<to>/kqxs_tinh.htm?c=$2</to>
+    </rule>      
+    
+    <rule>
+    	<from>/ket-qua-xo-so-([a-z-]+)-([a-z-]+)-ngay-([0-9-]+).html</from>
+    	<to>/kqxs_tinh.htm?c=$2&amp;d=$3</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmb-sxmb-xstd-ket-qua-xo-so-mien-bac-thu-([0-9-]+).html</from>
+    	<to>/kqxs_theo_thu.htm?c=xsmb&amp;d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmn-sxmn-ket-qua-xo-so-mien-nam-thu-([0-9-]+).html</from>
+    	<to>/kqxs_theo_thu.htm?c=xsmn&amp;d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmt-sxmt-ket-qua-xo-so-mien-trung-thu-([0-9-]+).html</from>
+    	<to>/kqxs_theo_thu.htm?c=xsmt&amp;d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmb-sxmb-xstd-ket-qua-xo-so-mien-bac-chu-nhat.html</from>
+    	<to>/kqxs_theo_thu.htm?c=xsmb</to>
+    </rule>
+    
+    <rule>
+    	<from>/xsmn-sxmn-ket-qua-xo-so-mien-nam-chu-nhat.html</from>
+    	<to>/kqxs_theo_thu.htm?c=xsmn</to>
+    </rule>
+    
+    
+    <rule>
+    	<from>/xsmt-sxmt-ket-qua-xo-so-mien-trung-chu-nhat.html</from>
+    	<to>/kqxs_theo_thu.htm?c=xsmt</to>
+    </rule>
+    
+    <rule>
+        <from>/hinh-anh-tin-tuc/([A-Z0-9-]+)</from>
+        <to>/hinh-anh-tin-tuc/?id=$1</to>
+    </rule>
+    
+    <!--
+    <rule>
+    	<from>/([a-z-]+)-([a-z-]+)-([a-z-]+)-ket-qua-xo-so-mien-([a-z-]+)-thu-([0-9-]+).html</from>
+    	<to>/kqxs_theo_thu.htm?c=$1&amp;d=$5</to>
+    </rule>
+    
+    <rule>
+    	<from>/([a-z-]+)-([a-z-]+)-ket-qua-xo-so-mien-([a-z-]+)-thu-([0-9-]+).html</from>
+    	<to>/kqxs_theo_thu.htm?c=$1&amp;d=$4</to>
+    </rule>
+    
+    <rule>
+    	<from>/([a-z-]+)-([a-z-]+)-([a-z-]+)-ket-qua-xo-so-mien-([a-z-]+)-chu-nhat.html</from>
+    	<to>/kqxs_theo_thu.htm?c=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/([a-z-]+)-([a-z-]+)-ket-qua-xo-so-mien-([a-z-]+)-chu-nhat.html</from>
+    	<to>/kqxs_theo_thu.htm?c=$1</to>
+    </rule>
+    -->
+    <rule>
+    	<from>/tin-tuc/([a-z0-9-]+)-([0-9-]+).html</from>
+    	<to>/detail_news.htm?sid=$2&amp;id=$2</to>
+    </rule>
+    
+    <rule>
+    	<from>/tin-tuc/([0-9-]+).html</from>
+    	<to>/tintuc.htm?p=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so.html</from>
+    	<to>/du.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-([a-z-]+)-([a-z-]+).html</from>
+    	<to>/du.htm?c=$2</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-([a-z-]+)-([a-z-]+)-ngay-([0-9-]+).html</from>
+    	<to>/du.htm?c=$2&amp;d=$3</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-ngay-([0-9-]+).html</from>
+    	<to>/du.htm?d=$1</to>
+    </rule>    
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-mien-nam-xsmn.html</from>
+    	<to>/du.htm?c=mn</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-mien-trung-xsmt.html</from>
+    	<to>/du.htm?c=mt</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-mien-bac-xsmb.html</from>
+    	<to>/du.htm?c=mb</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-mien-nam-xsmn-([0-9-]+).html</from>
+    	<to>/du.htm?c=mn&amp;d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-mien-trung-xsmt-([0-9-]+).html</from>
+    	<to>/du.htm?c=mt&amp;d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/du-doan-ket-qua-xo-so-mien-bac-xsmb-([0-9-]+).html</from>
+    	<to>/du.htm?c=mb&amp;d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/xo-so-truc-tiep.html</from>
+    	<to>/xslive.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/xo-so-truc-tiep/xsmb-mien-bac.html</from>
+    	<to>/xslive.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/xo-so-truc-tiep/xsmn-mien-nam.html</from>
+    	<to>/xslive.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/xo-so-truc-tiep/xsmt-mien-trung.html</from>
+    	<to>/xslive.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/do-so.html</from>
+    	<to>/dove.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/dien-toan.html</from>
+    	<to>/dientoan.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/dien-toan-ngay-([0-9-]+).html</from>
+    	<to>/dientoan.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/than-tai.html</from>
+    	<to>/thantai.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/than-tai-ngay-([0-9-]+).html</from>
+    	<to>/thantai.htm?d=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/tin-tuc.html</from>
+    	<to>/tintuc.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/so-mo.html</from>
+    	<to>/somo.htm</to>
+    </rule>
+    
+    <rule>
+    	<from>/so-mo-([0-9-]+).html</from>
+    	<to>/somo.htm?p=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/so-mo-([a-z-]+).html</from>
+    	<to>/somo.htm?dream=$1</to>
+    </rule>
+    
+    <rule>
+    	<from>/so-mo-([0-9-]+)-([a-z-]+).html</from>
+    	<to>/somo.htm?p=$1&amp;dream=$2</to>
+    </rule>
+    
+    <rule>
+    	<from>/so-mo-([0-9-]+)-([0-9-]+).html</from>
+    	<to>/somo.htm?p=$1&amp;number=$2</to>
+    </rule>
+    
+    <rule>
+    	<from>/so-mo-([0-9-]+)-([a-z-]+)-([0-9]+).html</from>
+    	<to>/somo.htm?p=$1&amp;dream=$2&amp;number=$3</to>
+    </rule>
+    
+     <rule>
+    	<from>/lich-mo-thuong.html</from>
+    	<to>/lichmothuong.htm</to>
+    </rule>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+    <rule>
+    	<from>/404.html</from>
+    	<to>/404.htm</to>
+    </rule>
+    
+    <!--
+    <rule>
+    	<from>/ket-qua/xo-so-ngay-([0-9-]+).html</from>
+    	<to type="permanent-redirect" last="true">/ket-qua-xo-so-ngay-$1.html</to>
+    </rule>
+    -->    
+    
+    <!--redirect-->
+    <!--
+    <rule>
+    	<from>/xo-so-truc-tiep.html</from>
+    	<to type="permanent-redirect" last="true">/ket-qua-xo-so-truc-tiep-xstt.html</to>
+    </rule>
+    -->
+    
+    
+    
+</urlrewrite>
+

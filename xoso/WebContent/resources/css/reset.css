@@ -1,0 +1,197 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	}
+body {
+	line-height: 1
+	}
+ol,ul {
+	list-style: none
+	}
+blockquote,q {
+	quotes: none
+	}
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none
+	}
+:focus {
+	outline: 0
+	}
+a {
+	text-decoration: none
+	}
+ins {
+	text-decoration: none
+	}
+del {
+	text-decoration: line-through
+	}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+	}
+body {
+	font: normal  normal  normal;
+	font-family: Tahoma,Tahoma,Sans-Serif;
+	font-size: 0.75em; /* 12px */
+	line-height: 1.333em
+	}
+/* h1 {
+	font-size: 2.5em;
+	line-height: 1em
+	}
+h2 {
+	font-size: 2em;
+	line-height: 1.25em
+	}
+h3 {
+	font-size: 1.667em;
+	line-height: 1em
+	}
+h4 {
+	font-size: 1.5em;
+	line-height: 1.111em
+	}
+h5 {
+	font-size: 1.25em;
+	line-height: 1.333em
+	}
+h6 {
+	font-size: 1em;
+	line-height: 1.5em
+	} */
+p { } 
+html body .stxt {
+	font-size: 0.85em;
+	font-weight: normal
+	}
+html body .bold {
+	font-weight: bold
+	}
+html body .em {
+	font-style: italic
+	}
+.txtl {
+	text-align: left
+	}
+.txtc {
+	text-align: center
+	}
+.txtr {
+	text-align: right
+	}
+.fltl {
+	float: left
+	}
+.fltr {
+	float: right
+	}
+.htxt {
+	text-indent: -9999px;
+	overflow: hidden
+	}
+.hidden {
+	display: none;
+	visibility: hidden
+	}
+html body .nomg {
+	margin: 0 !important;
+	margin: 0
+	}
+html body .nopd {
+	padding: 0 !important;
+	padding: 0
+	}
+html body .nobd {
+	border: 0 !important;
+	border: 0
+	}
+html body .nobg {
+	background: transparent !important;
+	background: transparent
+	}
+html body .hr {
+	display: block;
+	height: 1px;
+	width: auto;
+	margin: 5px auto;
+	clear: both;
+	font-size: 1px;
+	line-height: 1px;
+	border-bottom: 1px solid #fff;
+	background: #aaa
+	}
+html body .hr hr {
+	display: none
+	}
+.clr {
+	clear: both
+	}
+.clrer {
+	clear: both;
+	display: block;
+	margin: 0;
+	padding: 0;
+	height: 0;
+	line-height: 1px;
+	font-size: 1px
+	}
+.clrl {
+	clear: left
+	}
+.clrr {
+	clear: right
+	}
+html body * span.clear, html body * div.clear, html body * li.clear, html body * dd.clear {
+	background: none;
+	border: 0;
+	clear: both;
+	display: block;
+	float: none;
+	font-size: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0
+	}
+.clrfx:after {
+	content: '.';
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden
+	}
+.clrfx {
+	display: inline-block
+	}
+* html .clrfx {
+	height: 1%
+	}
+.clrfx {
+	display: block
+	}
+.rlt {
+	position: relative
+	}
+.iconimg {
+	vertical-align: middle
+	}
+html body .innerleft {
+	margin-left: 0
+	}
+html body .innerright {
+	margin-right: 0
+	}
+button {
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;}

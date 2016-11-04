@@ -1,0 +1,16 @@
+#content-center #content-tructiep td#tructiep h2, #content-center #content-tructiep td#thaoluan h2 {
+    font-size: 15px;
+}
+#content-center #content-tructiep td#tructiep table, #content-center #content-tructiep #thongkenhanh table{    
+    font-weight: bold;
+    font-size: 16px;
+}
+#content-center #content-tructiep td#tructiep .dd-loto-widget table, 
+#content-center #content-tructiep #thongkenhanh .dd-loto-widget table{
+    width: 49%;
+    display: inline-table;
+}
+.dd-loto-widget table.dit-loto{
+    margin-left: 5px;
+}
+.do{color: red}

@@ -1,0 +1,607 @@
+@import "reset.css";
+@import "main.css";
+@import "slider.css";
+@import "video.css";
+@import "news.css";
+@import "thachdau.css";
+#wapper{
+	width: 1150px;
+	margin: 0px auto;
+	background: white;
+}
+.sidebar_right{
+	width: 230px;
+	float: right;
+}
+.sidebar_right .login{
+	width: 226px;
+	height: 298px;
+	background: #f5f5f5;
+	border: 1px solid #dbdbdb;
+	float: right;
+	margin-right: 2px;
+}
+.sidebar_right .login .btn_login{
+	width: 157px;
+	height: 37px;
+	background: #117e0c;
+	border-radius: 3px;
+	margin-left: 36px;
+	margin-top: 8px;
+	display: block;
+}
+.sidebar_right .login .btn_login:hover{
+	background: #086404;
+}
+.sidebar_right .login .btn_login span.icon{
+	float: left;
+	background: url("../images/icons.png") no-repeat;
+	background-position: -49px -15px;
+	display: block;
+	width: 24px;
+	height: 26px;
+	margin: 6px 0px 0px 14px;
+}
+.sidebar_right .login .btn_login span.txt{
+	display: block;
+	height: 37px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+	float: left;
+	border-left: 1px solid #074005;
+	margin-left: 12px;
+	width: 106px;
+	text-align: center;
+	line-height: 33px;
+}
+.sidebar_right .login .open_id{
+	margin-top: 24px;
+	margin-left: 10px;
+}
+.sidebar_right .login .open_id p{
+	width: 100%;
+	float: left;
+}
+.sidebar_right .login .open_id .icon{
+	width: 24px;
+	height: 24px;
+	border-radius: 3px;
+	background: url("../images/icons.png") no-repeat;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.sidebar_right .login .open_id .icon.google{
+	background-position: -73px -17px;
+	margin-left: 42px;
+}
+.sidebar_right .login .open_id .icon.yahoo{
+	background-position: -97px -17px;
+}
+.sidebar_right .login .open_id .icon.facebook{
+	background-position: -122px -17px;
+}
+.sidebar_right .login .register{
+	float: left;
+	width: 100%;
+	border-top: 1px solid #dbdbdb;
+	margin-top: 10px;
+}
+.sidebar_right .login .register p{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+.sidebar_right .login .register a.btn_signup{
+	display: block;
+	width: 100px;
+	height: 37px;
+	color: white;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	background: #d45407;
+	text-align: center;
+	line-height: 33px;
+	margin-left: 60px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+.sidebar_right .login .register a.btn_signup:hover{
+	background: #b94804;
+}
+.sidebar_right .login .register .quenpass,.intro{
+	width: 250px;
+	float: left;
+	line-height: 20px;
+	margin-left: 10px;
+	color: red;
+}
+.sidebar_right .btn_clan_thachdau{
+	width: 100%;
+	float: left;
+	margin-top: 20px;
+}
+.sidebar_right .btn_clan_thachdau .create_clan{
+	width: 105px;
+	height: 48px;
+	background: url("../images/icons.png") no-repeat;
+	background-position: 0px -313px;
+	float: left;	
+}
+.sidebar_right .btn_clan_thachdau .btn_thachdau{
+	width: 125px;
+	height: 48px;
+	background: url("../images/icons.png") no-repeat;
+	background-position: -105px -313px;
+	float: left;	
+}
+.sidebar_right .btn_clan_thachdau .btn_thachdau:hover{
+	background: url("../images/icons.png") no-repeat;
+	background-position: -105px -362px;
+}
+.sidebar_right .btn_clan_thachdau .create_clan:hover{
+	background: url("../images/icons.png") no-repeat;
+	background-position: 0px -362px;
+}
+#main_container .videos{
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+	border-top: 3px solid #117e0c;
+	padding-top: 10px;
+}
+#main_container .videos .title{
+	clear: both;
+	margin-bottom: 10px;
+	float: left;
+}
+#main_container .videos .title .icon{
+	background: url("../images/icons.png") no-repeat;
+	background-position: -202px -24px;
+	width: 22px;
+	height: 23px;
+	display: block;
+	float: left;
+}
+#main_container .videos .title .txt{
+	color: #117e0c;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	height: 23px;
+	float: left;
+	margin-left: 10px;
+	line-height: 23px;
+}
+
+#main_container .videos .container{
+	background: #f5f5f5;
+	border: 1px solid #dbdbdb;
+	margin-left: 2px;
+	width: 996px;
+	height: 354px;
+	float: left;
+	position: relative;
+}
+#main_container .videos .container .box_video{
+	width: 177px;
+	height: 177px;
+	float: left;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #dbdbdb;
+	border-top: 1px solid #fff;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+
+}
+#main_container .videos .container .box_video img{
+	width: 167px;
+	height: 109px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+#main_container .videos .container .box_video .title{
+	font-size: 12px;
+	color: black;
+	font-weight: normal;
+	margin:5px 5px;
+}
+#main_container .videos .container .box_video .title:hover{
+	color: #d45407;
+}
+#main_container .videos .container .box_video.no5{
+	width: 288px;
+	height: 354px;
+	top: 0px;
+	left: 354px;
+	border-bottom: none;
+}
+#main_container .videos .container .box_video.no5 img{
+	width: 278px;
+	height: 215px;
+	margin-top: 35px;
+}
+#main_container .videos .container .box_video.no1{
+	top: 0px;
+	left:0px;
+	border-left: none;
+}
+#main_container .videos .container .box_video.no2{
+	left: 177px;
+    top: 0;
+}
+#main_container .videos .container .box_video.no3{
+	left:0px;
+	border-left: none;
+	top: 177px;
+	border-bottom: none;
+	
+}
+#main_container .videos .container .box_video.no4{
+	top: 177px;
+	left:177px;
+	border-bottom: none;
+}
+#main_container .videos .container .box_video.no6{
+	top: 0px;
+	left:642px;
+}
+#main_container .videos .container .box_video.no7{
+	top: 0px;
+	left:819px;
+}
+#main_container .videos .container .box_video.no8{
+	top: 177px;
+	left:642px;
+	border-bottom: none;
+}
+#main_container .videos .container .box_video.no9{
+	top: 177px;
+	left:819px;
+	border-bottom: none;
+}
+#main_container .videos .container .box_video span.iconvideoplay{
+	display: block;
+	position: absolute;
+	width:52px;
+	height: 52px;
+	left: 56px;
+	top: 29px;
+	background: url("../images/icons.png") no-repeat;
+	background-position:-235px -9px; 
+}
+#main_container .videos .container .box_video.no5 span.iconvideoplay{
+	top: 115px;
+	left: 120px;
+}
+#main_container .thachdau{
+	width: 100%;
+	float: left;
+	margin: 10px 0px;
+	padding-top: 10px;
+}
+#main_container .thachdau .title{
+	clear: both;
+	margin-bottom: 10px;
+	float: left;
+}
+#main_container .banner_mid{
+	width: 1000px;
+	height: 100px;
+	float: left;
+}
+#main_container .banner_mid img{
+	width: 1000px;
+	height: 100px;
+}
+#main_container .thachdau .title .icon{
+	background: url("../images/icons.png") no-repeat;
+	background-position: -125px -89px;
+	width: 28px;
+	height: 23px;
+	display: block;
+	float: left;
+}
+#main_container .thachdau .title .txt{
+	color: #117e0c;
+	font-weight: bold;
+	font-size: 14px;
+	display: block;
+	height: 23px;
+	float: left;
+	margin-left: 10px;
+	line-height: 23px;
+}
+#main_container .thachdau .container{
+	background: #f5f5f5;
+	border: 1px solid #dbdbdb;
+	margin-left: 2px;
+	width: 996px;
+	height: auto;
+	float: left;
+	position: relative;
+}
+#main_container .thachdau .container .top_thachdau{
+	width: 100%;
+	border-bottom:1px solid #dbdbdb;
+	float: left;
+	padding-bottom: 10px;
+}
+#main_container .thachdau .container .top_thachdau .hot_war{
+	width: 670px;
+	height: 240px;
+	float: left;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .user{
+	width: 190px;
+	float: left;
+	height: 240px;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .vesus{
+	float: left;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .info{
+	float: left;
+}
+#main_container .thachdau .container .top_thachdau .hot_war img{
+	width: 190px;
+	height: 190px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .user .user_name{
+	text-align: center;
+	margin-top: 10px;
+	color: #117e0c;
+	font-weight: bold;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .vesus{
+	width: 250px;
+	height: 170px;
+	background: url("../images/icons.png") no-repeat;
+	background-position: 0px -144px;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .vesus.team{
+	background: url("../images/vs_team.png") no-repeat;
+
+}
+#main_container .thachdau .container .top_thachdau .hot_war .info{
+	width: 200px;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #117e0c;
+	font-weight: bold;
+	line-height: 20px;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .info p b{
+	color: red;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .info .btn_detail{
+	display: block;
+	font-weight: bold;
+	color: white;
+	font-size: 18px;
+	background: #117e0c;
+	padding:20px 10px;
+	text-align: center;
+	margin-top: 20px;
+	border-radius: 3px;
+}
+#main_container .thachdau .container .top_thachdau .hot_war .info .btn_detail:hover{
+	background: #095d05;
+}
+#main_container .thachdau .container .top_thachdau .sidebar_thachdau{
+	float: right;
+	width: 305px;
+	margin-top: 10px;
+	margin: 3px 3px 0px 0px;
+	border: 1px solid #dbdbdb;
+}
+#main_container .thachdau .container .box_thachdau{
+	margin-top: 10px;
+	border-top: 1px solid #dbdbdb;
+	width: 100%;
+	float: left;
+}
+#main_container .thachdau .container .sidebar_thachdau .td{
+	width: 330px;
+	float: left;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #dbdbdb;
+}
+#main_container .thachdau .container .box_thachdau .td{
+	width: 330px;
+}
+#main_container .thachdau .container .box_thachdau .user{
+	float: left;
+	width: 115px;
+}
+#main_container .thachdau .container .box_thachdau .user img{
+	width: 115px;
+	height: 95px;
+	margin-top: 5px;
+}
+#main_container .thachdau .container .box_thachdau .vesus{
+	float: left;
+	
+}
+#main_container .thachdau .container .box_thachdau .user1{
+	margin-left: 5px;
+}
+#main_container .thachdau .container .box_thachdau .user2{
+	margin-right: 5px;
+}
+#main_container .thachdau .container .box_thachdau .user .user_name{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+}
+#main_container .thachdau .container .box_thachdau .user1 .user_name {
+	color: hsl(117, 83%, 27%);
+}
+#main_container .thachdau .container .box_thachdau .user2 .user_name {
+	color: #692a03;
+}
+#main_container .thachdau .container .box_thachdau .vesus{
+	width: 87px;
+	height: 75px;
+	background: url("../images/icons.png") no-repeat;
+	background-position: -16px -56px;
+	margin-top: 15px;
+}
+#main_container .thachdau .container .box_thachdau .td{
+	cursor: pointer;
+}
+#main_container .thachdau .container .box_thachdau .td:hover{
+	background: #e2e2e2;
+}
+#main_container .thachdau .container .xemthem{
+	display: block;
+	width: 127px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	float: left;
+	color: white;
+	font-weight: bold;
+	margin:10px 0px 10px 45%;
+	background: hsl(117, 83%, 27%);
+	border-radius: 3px;
+}
+/*#main_container .thachdau .container .box_thachdau{
+	margin-top: 10px;
+	border-top: 1px solid #dbdbdb;
+	width: 100%;
+	float: left;
+}*/
+#main_container .thachdau .container .sidebar_thachdau .td{
+	width: 305px;
+	float: left;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #dbdbdb;
+	padding-bottom: 5px;
+}
+#main_container .thachdau .container .sidebar_thachdau .td:last-child{
+	border:none;
+}
+#main_container .thachdau .container .sidebar_thachdau .user{
+	float: left;
+	width: 100px;
+	margin-left: 5px;
+}
+#main_container .thachdau .container .sidebar_thachdau .user img{
+	width: 100px;
+	height: 70px;
+	margin-top: 5px;
+}
+#main_container .thachdau .container .sidebar_thachdau .vesus{
+	float: left;
+	
+}
+#main_container .thachdau .container .sidebar_thachdau .user .user_name{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 5px;
+}
+#main_container .thachdau .container .sidebar_thachdau .user.user1 .user_name {
+	color: hsl(117, 83%, 27%);
+}
+#main_container .thachdau .container .sidebar_thachdau .user.user2 .user_name {
+	color: #692a03;
+}
+#main_container .thachdau .container .sidebar_thachdau .vesus{
+	width: 87px;
+	height: 75px;
+	background: url("../images/icons.png") no-repeat;
+	background-position: -16px -56px;
+	margin-top: 15px;
+	margin-left: 2px;
+}
+/*Doto*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.dota{
+	background: url("../images/vesus/vs_dota.png") no-repeat;
+}
+#main_container .thachdau .container .sidebar_thachdau .vesus.solo{
+	background-position: 0px 0px;
+}
+
+#main_container .thachdau .container .sidebar_thachdau .vesus.team{
+	background-position: -88px 0px;
+}
+/*đe che*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.deche{
+	background: url("../images/vesus/vs_deche.png") no-repeat;
+}
+
+/*dot kich*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.dotkich{
+	background: url("../images/vesus/vs_dotkich.png") no-repeat;
+}
+
+/*Fifa*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.fifa{
+	background: url("../images/vesus/vs_fifa.png") no-repeat;
+}
+
+/*vs_haftlife*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.haftlife{
+	background: url("../images/vesus/vs_haftlife.png") no-repeat;
+}
+/*vs_lmht*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.lmht{
+	background: url("../images/vesus/vs_lmht.png") no-repeat;
+}
+
+/*vs_pes*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.pes{
+	background: url("../images/vesus/vs_pes.png") no-repeat;
+}
+
+/*vs_warface*/
+#main_container .thachdau .container .sidebar_thachdau .vesus.warface{
+	background: url("../images/vesus/vs_warface.png") no-repeat;
+}
+#main_container .thachdau .container .sidebar_thachdau .td{
+	cursor: pointer;
+}
+#main_container .thachdau .container .sidebar_thachdau .td:hover{
+	background: #e2e2e2;
+}
+#main_container .thachdau .container .xemthem{
+	display: block;
+	width: 127px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	float: left;
+	color: white;
+	font-weight: bold;
+	margin:10px 0px 10px 45%;
+	background: #d45407;
+	border-radius: 3px;
+}
+#main_container .thachdau .container .xemthem:hover{
+	background: #b94804;
+}
+.sc-tt4 {
+    color: #e00c0c;
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: normal;
+}
+.tkbn-link{
+    color: #fff;
+    text-align: center;
+    padding: 6px 10px 5px 10px;
+    margin-bottom: 5px;
+    background: #ffaf4b;
+}

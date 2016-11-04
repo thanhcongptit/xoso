@@ -1,0 +1,599 @@
+#main_container .thachdau.main{
+    width: 760px;
+    float: left;
+    padding-top: 0px;
+    margin-right: 10px;
+}
+#main_container .thachdau.main .container{
+    width: 760px;
+    min-height: 600px;
+}
+
+#main_container .box_thachdau .user1 img,.user2 img{
+    width: 120px;
+    height: 95px;
+    margin-top: 5px;
+}
+#main_container .box_thachdau .vesus{
+    float: left;
+}
+#main_container .box_thachdau .user2{
+    float: right;
+    width: 130px;
+    margin-right: 15px;
+}
+#main_container .box_thachdau .user1 .user_name, .user2 .user_name{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#main_container .box_thachdau .user1 .user_name {
+    color: hsl(117, 83%, 27%);
+}
+#main_container .box_thachdau .user2 .user_name {
+    color: #692a03;
+}
+#main_container .box_thachdau .vesus{
+    width: 87px;
+    height: 75px;
+    background: url("../images/icons.png") no-repeat;
+    background-position: -16px -56px;
+    margin-top: 15px;
+}
+#main_container .box_thachdau .td{
+    cursor: pointer;
+    float: left;
+    padding: 5px 0;
+    border-left: 1px solid #dbdbdb;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+#main_container .box_thachdau .td:hover{
+    background: #e2e2e2;
+}
+#main_container .xemthem{
+    display: block;
+    width: 127px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+    float: left;
+    color: white;
+    font-weight: bold;
+    margin:10px 0px 10px 45%;
+    background: hsl(117, 83%, 27%);
+    border-radius: 3px;
+}
+#main_container .box_thachdau{
+    width: 100%;
+    float: left;
+}
+#main_container .box_thachdau .td{
+    width: 378px;
+    float: left;
+}
+#main_container .box_thachdau .user1{
+    float: left;
+    width: 130px;
+    margin-left: 5px;
+}
+#main_container .thachdau.main .container .box_thachdau .user1 img{
+    width: 120px;
+    height: 95px;
+    margin-top: 5px;
+}
+#main_container .thachdau.main .container .box_thachdau .user2 img{
+    width: 120px;
+    height: 95px;
+    margin-top: 5px;
+}
+#main_container .box_thachdau .vesus{
+    float: left;
+
+}
+#main_container .container .box_thachdau .user2{
+    float: right;
+    width: 130px;
+    margin-right: 5px;
+}
+#main_container .box_thachdau .user1 .user_name, .user2 .user_name{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5px;
+}
+#main_container .box_thachdau .user1 .user_name {
+    color: hsl(117, 83%, 27%);
+}
+#main_container .box_thachdau .user2 .user_name {
+    color: #692a03;
+}
+#main_container .box_thachdau .vesus{
+    width: 87px;
+    height: 75px;
+    background: url("../images/icons.png") no-repeat;
+    background-position: -16px -56px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+/*Doto*/
+#main_container .box_thachdau .vesus.dota{
+    background: url("../images/vesus/vs_dota.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.dota.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.dota.team{
+    background-position: -88px 0px;
+}
+/*đe che*/
+#main_container .box_thachdau .vesus.deche{
+    background: url("../images/vesus/vs_deche.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.deche.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.deche.team{
+    background-position: -88px 0px;
+}
+/*dot kich*/
+#main_container .box_thachdau .vesus.dotkich{
+    background: url("../images/vesus/vs_dotkich.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.dotkich.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.dotkich.team{
+    background-position: -88px 0px;
+}
+/*Fifa*/
+#main_container .box_thachdau .vesus.fifa{
+    background: url("../images/vesus/vs_fifa.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.fifa.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.fifa.team{
+    background-position: -88px 0px;
+}
+/*vs_haftlife*/
+#main_container .box_thachdau .vesus.haftlife{
+    background: url("../images/vesus/vs_haftlife.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.haftlife.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.haftlife.team{
+    background-position: -88px 0px;
+}
+/*vs_lmht*/
+#main_container .box_thachdau .vesus.lmht{
+    background: url("../images/vesus/vs_lmht.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.lmht.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.lmht.team{
+    background-position: -88px 0px;
+}
+/*vs_pes*/
+#main_container .box_thachdau .vesus.pes{
+    background: url("../images/vesus/vs_pes.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.pes.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.pes.team{
+    background-position: -88px 0px;
+}
+/*vs_warface*/
+#main_container .box_thachdau .vesus.warface{
+    background: url("../images/vesus/vs_warface.png") no-repeat;
+}
+#main_container .box_thachdau .vesus.warface.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .box_thachdau .vesus.warface.team{
+    background-position: -88px 0px;
+}
+#main_container .box_thachdau .td{
+    cursor: pointer;
+}
+#main_container .box_thachdau .td:hover{
+    background: #e2e2e2;
+}
+
+#main_container .thachdau .container .list_thachdau .item{
+    width: 760px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 5px;
+    float: left;
+}
+#main_container .thachdau .container .list_thachdau .item .user{
+    width: 125px;
+    float: left;
+}
+#main_container .thachdau .container .list_thachdau .item .vesus{
+    float: left;
+}
+#main_container .thachdau .container .list_thachdau .item .info{
+    float: left;
+}
+#main_container .thachdau .container .list_thachdau .item img{
+    width: 120px;
+    height: 100px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+#main_container .thachdau .container .list_thachdau .item .user .user_name{
+    text-align: center;
+    margin-top: 10px;
+    color: #117e0c;
+    font-weight: bold;
+}
+#main_container .thachdau .container .list_thachdau .item .vesus{
+    width: 120px;
+    height: 80px;
+    background: url("../images/vs_solo.png") no-repeat;
+    background-size: 120px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#main_container .thachdau .container .list_thachdau .item .vesus.team{
+    background: url("../images/vs_team.png") no-repeat;
+
+}
+#main_container .thachdau .container .list_thachdau .item .contents{
+    margin-left: 20px;
+    margin-top: 10px;
+    color: #117e0c;
+    font-weight: bold;
+    line-height: 20px;
+    float: left;
+}
+#main_container .thachdau .container .list_thachdau .item .contents p b{
+    color: red;
+}
+#main_container .thachdau .container .list_thachdau .item .contents .btn_detail{
+    display: block;
+    font-weight: bold;
+    color: white;
+    font-size: 14px;
+    background: #117e0c;
+    padding:10px 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 3px;
+}
+#main_container .thachdau .container .list_thachdau .item .contents .btn_detail:hover{
+    background: #095d05;
+}
+
+#main_container .main_right .sidebar_thachdau{
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #dbdbdb;
+    float: right;
+    width: 226px
+}
+#main_container .main_right .sidebar_thachdau .td{
+    width: 225px;
+    float: left;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #dbdbdb;
+    padding-bottom: 10px;
+}
+#main_container .main_right .sidebar_thachdau .td:last-child{
+    border:none;
+}
+#main_container .main_right .sidebar_thachdau .user{
+    float: left;
+    width: 85px;
+}
+#main_container .main_right .sidebar_thachdau .user1{
+    margin-left:2px;
+}
+#main_container .main_right .sidebar_thachdau .user2{
+    margin-right:2px;
+}
+#main_container .main_right .sidebar_thachdau .user img{
+    width: 85px;
+    height: 70px;
+    margin-top: 5px;
+}
+#main_container .main_right .sidebar_thachdau .vesus{
+    float: left;
+    background-size: 82px auto;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+#main_container .main_right .sidebar_thachdau .user .user_name{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 11px;
+    font-weight: normal;
+    width: 80px
+}
+#main_container .main_right .sidebar_thachdau .user.user1 .user_name {
+    color: hsl(117, 83%, 27%);
+}
+#main_container .main_right .sidebar_thachdau .user.user2 .user_name {
+    color: #692a03;
+}
+#main_container .main_right .sidebar_thachdau .vesus{
+    width: 44px;
+    height: 44px;
+    background: url("../images/icons.png") no-repeat;
+    background-position: -16px -56px;
+    margin-top: 15px;
+    margin-left: 2px;
+}
+/*Doto*/
+#main_container .main_right .sidebar_thachdau .vesus.dota{
+    background: url("../images/vesus/vs_dota.png") no-repeat;
+    background-size: 82px auto;
+}
+#main_container .main_right .sidebar_thachdau .vesus.solo{
+    background-position: 0px 0px;
+}
+
+#main_container .main_right .sidebar_thachdau .vesus.team{
+    background-position: -42px 0px;
+}
+/*đe che*/
+#main_container .main_right .sidebar_thachdau .vesus.deche{
+    background: url("../images/vesus/vs_deche.png") no-repeat;
+    background-size: 82px auto;
+}/*dot kich*/
+#main_container .main_right .sidebar_thachdau .vesus.dotkich{
+    background: url("../images/vesus/vs_dotkich.png") no-repeat;
+    background-size: 82px auto;
+}
+/*Fifa*/
+#main_container .main_right .sidebar_thachdau .vesus.fifa{
+    background: url("../images/vesus/vs_fifa.png") no-repeat;
+    background-size: 82px auto;
+}
+
+/*vs_haftlife*/
+#main_container .main_right .sidebar_thachdau .vesus.haftlife{
+    background: url("../images/vesus/vs_haftlife.png") no-repeat;
+    background-size: 82px auto;
+}
+
+/*vs_lmht*/
+#main_container .main_right .sidebar_thachdau .vesus.lmht{
+    background: url("../images/vesus/vs_lmht.png") no-repeat;
+    background-size: 82px auto;
+}
+/*vs_pes*/
+#main_container .main_right .sidebar_thachdau .vesus.pes{
+    background: url("../images/vesus/vs_pes.png") no-repeat;
+    background-size: 82px auto;
+}
+
+/*vs_warface*/
+#main_container .main_right .sidebar_thachdau .vesus.warface{
+    background: url("../images/vesus/vs_warface.png") no-repeat;
+    background-size: 82px auto;
+}
+
+#main_container .main_right .sidebar_thachdau .td{
+    cursor: pointer;
+}
+#main_container .main_right .sidebar_thachdau .td:hover{
+    background: #e2e2e2;
+}
+#main_container  .main_right .sidebar_thachdau .title_thachdau{
+    width: 226px;
+    float: left;
+    font-weight: bold;
+    color: white;
+    background: #117e0c;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#main_container .thachdau.main .container .top_thachdau .hot_war{
+    width: 760px;
+}
+
+/*Chi tiết thách đấu*/
+
+#main_container .thachdau.main .container .top_thachdau  .hot_war .user {
+    width: 220px;
+}
+#main_container .thachdau.main .container .top_thachdau .hot_war .user img{
+    width: 220px;
+}
+#main_container .thachdau.main .container .top_thachdau .hot_war .user2 .user_name{
+    color: #692a03	;
+}
+#main_container .thachdau.main .container .top_thachdau .game_logo{
+    width: 750px;
+    float: left;
+}
+#main_container .thachdau.main .container .top_thachdau .game_logo p{
+    text-align: center;
+}
+
+#main_container .thachdau.main .container .top_thachdau .hot_war .info{
+    width: 290px;
+    float: left;
+}
+#main_container .thachdau.main .container .top_thachdau .btn_thachdau {
+    background: none repeat scroll 0 0 #117e0c;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 93%;
+} 
+#main_container .thachdau.main .container .top_thachdau .btn_thachdau:hover{
+    background:  #095d05;
+}
+#main_container .thachdau .container .top_thachdau .detail .info{
+    color: #117e0c;
+    font-size: 14px;
+    float: left;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 300px;
+}
+#main_container .thachdau .container .top_thachdau .detail .info p b{
+    color: red;
+}
+#main_container .thachdau .container .top_thachdau .detail .list_user{
+    float: left;
+    width: 200px;
+    margin-top: 10px;
+}
+#main_container .thachdau .container .top_thachdau .detail .list_user .title_user{
+    background: #117e0c;
+    width: 100%;
+    text-align: center;
+    padding:10px 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px 3px 0px 0px;
+}
+#main_container .thachdau .container .top_thachdau .detail .list_user ul{
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #dbdbdb;
+    padding: 5px 5px;
+    font-weight: bold;
+}	
+#main_container .info_clan{
+    width: 760px;
+    min-height: 600px;
+    float: left;
+}
+#main_container .info_clan .title_clan{
+    font-size: 14px;
+    font-weight: bold;
+    color: #117e0c;
+}
+#main_container .info_clan .avatar{
+    height: 190px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 250px;
+    float: left;
+}
+#main_container .info_clan .avatar img{
+    width:250px;
+    height: 190px;
+}
+
+#main_container .info_clan .content {
+    color: #117e0c;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 400px;
+    float: left;
+}
+#main_container .info_clan .content p b{
+    color: red;
+}
+#main_container .info_clan .btn_send_request{
+    background: none repeat scroll 0 0 #d45407;
+    border-radius: 3px;
+    color: white;
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    float: left;
+    width: 200px;
+    clear: both;
+    margin-left: 300px;
+}
+#main_container .info_clan .btn_send_request:hover{
+    background:  #b9480;
+}
+#main_container .info_clan .list_user{
+    float: left;
+    width: 700px;
+    margin-top: 20px;
+    clear: both;
+    margin-left: 30px;
+}
+#main_container .info_clan .list_user .title_user{
+    background: #117e0c;
+    width: 100%;
+    text-align: center;
+    padding:10px 0;
+    font-weight: bold;
+    color: white;
+    border-radius: 3px 3px 0px 0px;
+}
+#main_container .info_clan .list_user ul{
+    background: none repeat scroll 0 0 #f5f5f5;
+    border: 1px solid #dbdbdb;
+    padding: 5px 5px;
+    font-weight: bold;
+}
+
+#main_container .main_right .state_list {
+    background:#f5f5f5;
+    border: 1px solid #dbdbdb;
+    float: right;
+    width: 226px;
+}
+#main_container .main_right .state_list .title_state{
+    background: #117e0c;
+    color: white;
+    float: left;
+    font-weight: bold;
+    padding: 10px 0;
+    text-align: center;
+    width: 226px;
+}
+#main_container .main_right .state_list ul li{
+    width: 226px;
+    padding: 5px 0;
+    float: left;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #fff;
+}
+#main_container .main_right .state_list ul li:hover{
+    background: #e2e2e2;
+}
+#main_container .main_right .state_list ul li a img{
+    float: left;
+    width: 85px;
+    height: 60px;
+    margin:0px 5px;
+
+}
+#main_container .main_right .state_list ul li a .user_name{
+    font-weight: bold;
+    color: black;
+    line-height: 18px;
+}
+#main_container .main_right .state_list ul li a .infor{
+    color: black;
+    line-height: 18px;
+}

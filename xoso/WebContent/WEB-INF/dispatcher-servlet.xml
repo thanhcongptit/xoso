@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!-- was: <?xml version="1.0" encoding="UTF-8"?> -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+       http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-3.2.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+
+    <!-- 
+    <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
+
+    
+    Most controllers will use the ControllerClassNameHandlerMapping above, but
+    for the index controller we are using ParameterizableViewController, so we must
+    define an explicit mapping for it.
+    
+    <bean id="urlMapping" class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+        <property name="mappings">
+            <props>
+                <prop key="index.htm">indexController</prop>
+            </props>
+        </property>
+    </bean>
+    -->
+     <bean class="inet.controller.CheckBaoKimController" name="/baokim_c635e081ea683706.html"/>
+    
+    <bean class="inet.controller.IndexController" name="/index.htm"/>
+    <bean class="inet.controller.TTMNController" name="/truc-tiep-mien-nam.htm"/>
+    <bean class="inet.controller.TTMTController" name="/truc-tiep-mien-trung.htm"/>
+    <bean class="inet.controller.XSMBController" name="/xsmb.htm"/>
+    <bean class="inet.controller.XSMNController" name="/xsmn.htm"/>
+    <bean class="inet.controller.XSMTController" name="/xsmt.htm"/>
+    <bean class="inet.controller.KQXSTinhController" name="/kqxs_tinh.htm"/>
+    <bean class="inet.controller.DetailNewsController" name="/detail_news.htm"/>
+    <bean class="inet.controller.KQXSTheoThuController" name="/kqxs_theo_thu.htm"/>
+    <bean class="inet.controller.DangkyController" name="/dang-ky.htm"/>
+    <bean class="inet.controller.LotoOnlineController" name="/loto-online.htm"/>
+    <bean class="inet.controller.NaptheController" name="/nap-the.htm"/>
+    <bean class="inet.controller.LaySoController" name="/layso.htm"/>
+    <bean class="inet.controller.CongtienController" name="/congtien.htm"/>
+    <bean class="xs.controller.DuController" name="/du.htm"/>
+    <bean class="xs.controller.SoKetQuaController" name="/soketqua.htm"/>
+    <bean class="inet.controller.XSLiveController" name="/xslive.htm"/>
+    <bean class="inet.controller.LoadLightstreamerController" name="/ajax/live_lightstreamer.htm"/>
+    <bean class="inet.controller.TintucController" name="/tintuc.htm"/>
+    <bean class="inet.controller.DoVeController" name="/dove.htm"/>
+    <bean class="inet.controller.DienToanController" name="/dientoan.htm"/>
+    <bean class="inet.controller.SoMoController" name="/somo.htm"/>
+    <bean class="inet.controller.LichMoThuongController" name="/lichmothuong.htm"/>
+    <bean class="inet.controller.ThanTaiController" name="/thantai.htm"/>
+    <bean class="inet.controller.PageNotFoundController" name="/404.htm"/>
+    <bean class="inet.controller.AdminController" name="/admin/index.htm"/>
+    <bean class="inet.controller.AdminKQXSController" name="/admin/kqxs/index.htm"/>
+    <bean class="inet.controller.AdminSaveKQXSController" name="/admin/kqxs/save.htm"/>
+    <bean class="inet.controller.AdminLoginController" name="/admin/login/index.htm"/>
+    <bean class="inet.controller.AdminLogoutController" name="/admin/login/logout.htm"/>
+    <bean class="inet.controller.MemberController" name="/admin/member/index.htm"/>
+    <bean class="inet.controller.ChatContentController" name="/chat_content.htm"/>
+    <bean class="inet.controller.MemberLoginController" name="/login/index.htm"/>
+    <bean class="inet.controller.MemberLoginFBController" name="/login/facebook/index.htm"/>
+    <bean class="inet.controller.MemberLoginGGController" name="/login/google/index.htm"/>
+    <bean class="inet.controller.MemberLoginInetController" name="/login/inet/index.htm"/>
+    <bean class="inet.controller.MemberLogoutController" name="/login/logout.htm"/>
+    <bean class="inet.controller.ThongKeBacNhoController" name="/thongkebacnho.htm"/>
+    <bean class="inet.controller.TKBNController" name="/tkbn.htm"/>
+    <bean class="inet.controller.LienHeController" name="/lien_he.htm"/>
+    <bean class="inet.controller.BangChotSoController" name="/bang-chot-so.htm"/>
+    <bean class="inet.controller.MemberProfileController" name="/profile.htm"/>
+    <!--<bean class="inet.controller.LiveTestController" name="/livetest.htm"/>-->
+    <bean class="xs.controller.admin.NewsController" name="/admin/news/index.htm"/> 
+    <bean class="xs.controller.admin.DuController" name="/admin/du/index.htm"/>  
+    <bean class="xs.controller.admin.DuCreateController" name="/admin/du/create.htm"/>  
+    <bean class="xs.controller.admin.DuUpdateController" name="/admin/du/update.htm"/>  
+    <bean class="xs.controller.admin.AdminChangePassController" name="/admin/change-pass.htm"/>  
+    <bean class="xs.controller.admin.MemberUpdateController" name="/admin/member/update.htm"/>  
+    <bean class="xs.controller.admin.AdminController" name="/admin/quan-tri/index.htm"/>  
+    <bean class="xs.controller.admin.AdminCreateController" name="/admin/quan-tri/create.htm"/>  
+    <bean class="xs.controller.admin.AdminUpdateController" name="/admin/quan-tri/update.htm"/>  
+    <bean class="xs.controller.admin.NewsCreateController" name="/admin/news/create.htm"/>  
+    <bean class="xs.controller.admin.NewsUpdateController" name="/admin/news/update.htm"/>  
+    <bean class="xs.controller.admin.BannerController" name="/admin/banner/index.htm"/>  
+    <bean class="xs.controller.admin.BannerUpdateController" name="/admin/banner/update.htm"/>  
+    <bean class="xs.controller.admin.LienHeController" name="/admin/lien-he/index.htm"/>  
+    <bean class="xs.controller.admin.SystemConfigController" name="/admin/cau-hinh/index.htm"/>  
+    <bean class="xs.controller.admin.QuanlyLinkController" name="/admin/quan-ly-link-quangcao.htm"/>
+    <bean class="xs.controller.admin.QuanlyXoSoController" name="/admin/quan-ly-du-doan-xoso.htm"/>
+    <bean class="xs.controller.admin.AdminLinkCreateController" name="/admin/link/create.htm"/>
+    <bean class="xs.controller.admin.AdminXosoCreateController" name="/admin/xoso/create.htm"/>  
+    
+    <bean class="inet.controller.ThongKeMBController" name="/ajax/thongke_mienbac.htm"/>
+    <bean class="inet.controller.BuildXSLiveController" name="/ajax/live.htm"/>
+    <bean class="inet.controller.BuildXSLiveController" name="/ajax/live_mb.htm"/>    
+    <bean class="inet.controller.BuildTinTucXSController" name="/ajax/tinxoso.htm"/>
+    <bean class="inet.controller.BuildTinTucPLController" name="/ajax/tinphapluat.htm"/>
+    <bean class="inet.controller.OleController" name="/ajax/ole.htm"/>
+    
+    <!--<bean class="com.controller.IndexController" name="/index.htm"/>-->
+    <bean class="com.controller.ThongKeChuKyController" name="/thongkechuky.htm"/>
+    <bean class="com.controller.ThongKeLotoGanController" name="/thongkelotogan.htm"/>
+    <bean class="com.controller.NhipTanSuatController" name="/tansuatnhiploto.htm"/>
+    <bean class="com.controller.TanSuatLotoController" name="/tansuatloto.htm"/>
+    <bean class="com.controller.TanSuatLotoCapsoController" name="/tansuatlotocapso.htm"/>
+    <bean class="com.controller.ThongKeDauDuoiController" name="/thongkedauduoi.htm"/>
+    <bean class="com.controller.ThongKeChuKyDanController" name="/thongkechukydan.htm"/>
+    <bean class="com.controller.ThongKeChuKyMaxController" name="/thongkechukymax.htm"/>
+    <bean class="com.controller.GhepXienController" name="/ghepxien.htm"/>
+    <bean class="com.controller.TongHopChuKyDacBietController" name="/tonghopchukydacbiet.htm"/>
+    <bean class="com.controller.ThongKeChuKyDanDacBietController" name="/thongkechukydandacbiet.htm"/>
+    <bean class="com.controller.BangDacBietController" name="/bangdacbiet.htm"/>
+    <bean class="com.controller.CauLotoController" name="/cauloto.htm"/>
+    <bean class="com.controller.CauLotoBachThuController" name="/caulotobachthu.htm"/>
+    <bean class="com.controller.CauLoto2NhayController" name="/cauloto2nhay.htm"/>
+    <bean class="com.controller.CauLotoDacBietController" name="/caulotodacbiet.htm"/>
+    <bean class="com.controller.CauLotoLoaiController" name="/caulotoloai.htm"/>
+    <bean class="com.controller.CauLotoLoaiBachThuController" name="/caulotoloaibachthu.htm"/>
+    <bean class="com.controller.ChiTietCauController" name="/detailcau.htm"/>
+    <bean class="com.controller.ChiTietCauLoaiController" name="/detailcauloai.htm"/>
+    <bean class="com.controller.LichSuCauLotoController" name="/lichsucauloto.htm"/>
+    <bean class="com.controller.ThongKeNhanhController" name="/thongkenhanh.htm"/>
+    <bean class="com.controller.LotoCapVeTrongNgayController" name="/lotocapvetrong1ngay.htm"/>
+    <bean class="com.controller.LotoBachThuVeTrong3NgayController" name="/lotobachthuvetrong3ngay.htm"/>
+    <bean class="com.controller.ThongKeTanSuatBoSoController" name="/thongketansuatboso.htm"/>
+    <bean class="com.controller.ThongKeTongHopController" name="/thongketonghop.htm"/>
+    <bean class="com.controller.ThongKeTheoNgayController" name="/thongketheongay.htm"/>
+    <bean class="com.controller.ThongKeTheoTongController" name="/thongketheotong.htm"/>
+    <bean class="com.controller.ThongKeQuanTrongController" name="/thongkequantrong.htm"/>
+    
+    <!-- controller thong ke bac nho -->
+    <bean class="com.soicaupro.controller.Loto1NgayDacBietController" name="/loto_cap_db_ve_trong_1ngay.htm"/>
+    <bean class="com.soicaupro.controller.Loto2NgayDacBietController" name="/loto_cap_db_ve_trong_2ngay.htm"/>
+    <bean class="com.soicaupro.controller.Loto2NgayDBController" name="/loto_cap_db_rs_ve_trong_2ngay.htm"/>
+    <bean class="com.soicaupro.controller.Loto3NgayDacBietController" name="/loto_cap_db_ve_trong_3ngay.htm"/>
+    <bean class="com.soicaupro.controller.Loto3NgayDBController" name="/loto_cap_db_rs_ve_trong_3ngay.htm"/>
+    <bean class="com.soicaupro.controller.Loto3NgayDacBiet_BachThuController" name="/loto_bachthu_db_ve_trong_3ngay.htm"/>
+    <bean class="com.soicaupro.controller.Loto3NgayDB_BachThuController" name="/loto_bachthu_db_rs_ve_trong_3ngay.htm"/>
+    
+    <bean class="com.soicaupro.controller.DauCamController" name="/daucam.htm"/>
+    <bean class="com.soicaupro.controller.DauCamLotoController" name="/dau_cam_loto.htm"/>
+    <bean class="com.soicaupro.controller.DauCamChinhController" name="/dau_cam_chinh.htm"/>
+    <bean class="com.soicaupro.controller.DauCamLotoRSController" name="/dau_cam_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.DauCamChinhRSController" name="/dau_cam_chinh_rs.htm"/>
+    
+    <bean class="com.soicaupro.controller.DuoiCamController" name="/duoicam.htm"/>
+    <bean class="com.soicaupro.controller.DuoiCamLotoController" name="/duoi_cam_loto.htm"/>
+    <bean class="com.soicaupro.controller.DuoiCamLotoRSController" name="/duoi_cam_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.DuoiCamChinhController" name="/duoi_cam_chinh.htm"/>
+    <bean class="com.soicaupro.controller.DuoiCamChinhRSController" name="/duoi_cam_chinh_rs.htm"/>
+    
+    <bean class="com.soicaupro.controller.TongCamController" name="/tongcam.htm"/>
+    <bean class="com.soicaupro.controller.TongCamLotoController" name="/tong_cam_loto.htm"/>
+    <bean class="com.soicaupro.controller.TongCamLotoRSController" name="/tong_cam_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.TongCamChinhController" name="/tong_cam_chinh.htm"/>
+    <bean class="com.soicaupro.controller.TongCamChinhRSController" name="/tong_cam_chinh_rs.htm"/>
+    
+    <bean class="com.soicaupro.controller.LotoTheoGiaiController" name="/loto_theo_giai.htm"/>
+    <bean class="com.soicaupro.controller.LotoTheoGiai_2Ngay_Controller" name="/theogiai_loto_2_ngay.htm"/>
+    <bean class="com.soicaupro.controller.LotoTheoGiai_2Ngay_RS_Controller" name="/theogiai_rs_loto_2_ngay.htm"/>
+    <bean class="com.soicaupro.controller.LotoTheoGiai_3Ngay_Controller" name="/theogiai_loto_3_ngay.htm"/>
+    <bean class="com.soicaupro.controller.LotoTheoGiai_3Ngay_RS_Controller" name="/theogiai_rs_loto_3_ngay.htm"/>
+    <bean class="com.soicaupro.controller.LotoTheoGiai_BachThu_Controller" name="/theogiai_bachthu_5_ngay.htm"/>
+    <bean class="com.soicaupro.controller.LotoTheoGiai_BachThu_RS_Controller" name="/theogiai_rs_bachthu_5_ngay.htm"/>
+    
+    <bean class="com.soicaupro.controller.LotoNhieuNhayController" name="/loto_nhieu_nhay.htm"/>
+    <bean class="com.soicaupro.controller.LotoNhieuNhay_3Ngay_Controller" name="/nhieu_nhay_loto.htm"/>
+    <bean class="com.soicaupro.controller.LotoNhieuNhay_3Ngay_RS_Controller" name="/nhieu_nhay_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.LotoNhieuNhay_Bachthu_Controller" name="/nhieu_nhay_bachthu.htm"/>
+    <bean class="com.soicaupro.controller.LotoNhieuNhay_Bachthu_RS_Controller" name="/nhieu_nhay_bachthu_rs.htm"/>
+    
+    <bean class="com.soicaupro.controller.Bo2_Controller" name="/bo2.htm"/>
+    <bean class="com.soicaupro.controller.Bo2_Loto_Controller" name="/bo2_loto.htm"/>
+    <bean class="com.soicaupro.controller.Bo2_Bachthu_Controller" name="/bo2_bachthu.htm"/>
+    <bean class="com.soicaupro.controller.Bo2_Loto_RS_Controller" name="/bo2_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.Bo2_Bachthu_RS_Controller" name="/bo2_bachthu_rs.htm"/>
+    
+    <bean class="com.soicaupro.controller.Bo3_Controller" name="/bo3.htm"/>
+    <bean class="com.soicaupro.controller.Bo3_Loto_Controller" name="/bo3_loto.htm"/>
+    <bean class="com.soicaupro.controller.Bo3_Loto_RS_Controller" name="/bo3_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.Bo3_Bachthu_Controller" name="/bo3_bachthu.htm"/>
+    <bean class="com.soicaupro.controller.Bo3_Bachthu_RS_Controller" name="/bo3_bachthu_rs.htm"/>
+    
+    <bean class="com.soicaupro.controller.Bo4_Controller" name="/bo4.htm"/>
+    <bean class="com.soicaupro.controller.Bo4_Loto_Controller" name="/bo4_loto.htm"/>
+    <bean class="com.soicaupro.controller.Bo4_Loto_RS_Controller" name="/bo4_loto_rs.htm"/>
+    <bean class="com.soicaupro.controller.Bo4_Bachthu_Controller" name="/bo4_bachthu.htm"/>
+    <bean class="com.soicaupro.controller.Bo4_Bachthu_RS_Controller" name="/bo4_bachthu_rs.htm"/>
+    
+    <bean class="inet.controller.MN_MT_Controller" name="/admin/kqxs/kqxs_mt_mn.htm"/>
+    <bean class="inet.controller.AdminSaveMTMNController" name="/admin/kqxs/save_mt_mn.htm"/>
+    <bean class="inet.controller.SmsController" name="/admin/sms.htm"/>
+    <bean class="inet.controller.SmsCreateController" name="/admin/sms/create.htm"/>
+    
+    <bean class="inet.controller.CuphapController" name="/admin/cuphap.htm"/>
+    <bean class="inet.controller.CuphapCreateController" name="/admin/cuphap/create.htm"/>
+    
+    <bean id="viewResolver"
+          class="org.springframework.web.servlet.view.InternalResourceViewResolver"
+          p:prefix="/WEB-INF/jsp-new/"
+          p:suffix=".jsp" />
+
+    <!--
+    The index controller.
+    
+    <bean name="indexController"
+          class="org.springframework.web.servlet.mvc.ParameterizableViewController"
+          p:viewName="index" />
+    -->      
+</beans>

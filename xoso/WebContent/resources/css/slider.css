@@ -1,0 +1,114 @@
+#featured{ 
+	width:762px;
+	position:relative; 
+	border:1px solid #e7e3e3; 
+	height:368px; 
+	overflow:hidden;
+	font-size: 12px;
+	color: white;
+	float: left;
+}
+#featured ul.ui-tabs-nav{ 
+	position:absolute; 
+	top:0; left:506px; 
+	list-style:none; 
+	padding:0; margin:0; 
+	width:250px;
+	height: 350px;
+	margin-top: 10px;
+}
+#featured ul.ui-tabs-nav li{ 
+	width: 250px;
+	height: 54px;
+	float: left;
+	font-size:12px;
+	position: relative; 
+	color:#666; 
+	margin-bottom: 10px;
+}
+#featured ul.ui-tabs-nav li img{ 
+	float:left; 
+	width: 64px;
+	height: 45px;
+}
+#featured ul.ui-tabs-nav li span{ 
+	font-size:12px;
+	line-height:18px; 
+	margin-left: 5px;
+	float: left;
+	width: 170px;
+}
+#featured li.ui-tabs-nav-item a{ 
+	display:block; 
+	padding: 5px 0px 0px 5px;
+	height: 50px;
+	width: 240px;
+	float: left;
+	text-decoration:none;
+	color:black;  background:#fff; 
+	line-height:20px; outline:none;
+}
+#featured li.ui-tabs-nav-item a:hover{ 
+	background:#f2f2f2; 
+}
+#featured li.ui-tabs-selected, #featured li.ui-tabs-active{ 
+	background:url('images/selected-item.gif') top left no-repeat;  
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a, #featured ul.ui-tabs-nav li.ui-tabs-active a{ 
+	background:#026004; 
+	color: white;
+}
+#featured ul.ui-tabs-nav li.ui-tabs-selected a, #featured ul.ui-tabs-nav li.ui-tabs-active:after{
+	border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+    content: "";
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    border-right-color: #026004;
+    left: -5px;
+    margin-left: -5px;
+    top: 43%;
+}
+#featured .ui-tabs-panel{ 
+	width:485px; height:353px;
+	margin: 6px 4px;
+	background:#999; position:relative;
+}
+#featured .ui-tabs-panel img{
+	width: 100%;
+	height: 100%;
+}
+#featured .ui-tabs-panel .info{ 
+	position:absolute; 
+	bottom:0; left:0; 
+	height:78px; 
+	background: rgba(0,0,0,0.48);
+}
+#featured .ui-tabs-panel .info a.hideshow{
+	position:absolute; color:#f0f0f0; right:10px; top:-20px; line-height:20px; margin:0; outline:none; background:#333;
+}
+#featured .info h2{ 
+	font-weight: bold;
+	font-size: 14px;
+	color:#fff; padding:5px; margin:0; font-weight:normal;
+	overflow:hidden; 
+}
+#featured .info p{ 
+	margin:0 5px;
+
+	line-height:15px; color:#f0f0f0;
+}
+#featured .info a{ 
+	text-decoration:none; 
+	color:#fff; 
+	font-weight: bold;
+}
+#featured .info a:hover{ 
+	text-decoration:underline; 
+}
+#featured .ui-tabs-hide{ 
+	display:none; 
+}
